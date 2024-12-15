@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+<title>FOUR FRAMES</title>
+<style>
+	.container {
+				display: grid;
+				grid-template-columns: 1fr 1fr;
+				grid-template-rows: 1fr 1fr;
+				gap: 10px;
+				height: 100vh;
+	}
+	.frame{
+		    
+		    border: 1px solid;
+		    padding: 20px;
+		    text-align: center;
+	}
+	table{
+		border-collapse: collapse;
+	}
+</style>
+</head>
+<body>
+	<div class="container">
+		<div class="frame">
+			<h2>IMAGE</h2>
+			<img src="download.jpg" alt="an image" style="width: 50%;height: 80%;">
+		</div>
+		<div class="frame">
+			<h2>TABLE</h2>
+			<table border="1" width="100%">
+			<tr><th>FIRST NAME</th><th>LAST NAME</th><th>EMAIL</th></tr>
+			<tr><td>PRASAANTH</td><td>HARI</td><td>prasaanthhari02@gmail.com</td></tr>
+			<tr><td>JOOLEY</td><td>DOOLEY</td><td>jooleydooley02@gmail.com</td></tr>
+			<tr><td>JOHN</td><td>DOE</td><td>johndoe02@gmail.com</td></tr>
+		</table>
+		</div>
+		<div class="frame">
+			<h2>HYPER LINKS</h2>
+			<ul>
+				<li><a href="#">LINK 1</a></li>
+				<li><a href="#">LINK 2</a></li>
+				<li><a href="#">LINK 3</a></li>
+			</ul>
+		</div>
+		<div class="frame">
+			<h2>TEXT</h2>
+			<p>this is a text and this is a web page with four frames<br>picture<br>table<br>text<br>hyperlinks</p>
+		</div>
+	</body>
+	</html>
